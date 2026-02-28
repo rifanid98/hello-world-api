@@ -16,6 +16,7 @@ func main() {
 
 	// Routes
 	e.GET("/hello", handler.HelloHandler)
+	e.GET("/health", handler.HealthHandler)
 
 	// Start server on port 8080
 	e.Logger.Fatal(e.Start(":8080"))

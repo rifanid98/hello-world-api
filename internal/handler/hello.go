@@ -12,3 +12,10 @@ func HelloHandler(c echo.Context) error {
 		"message": "hello world",
 	})
 }
+
+// HealthHandler handles GET /health for uptime monitoring.
+func HealthHandler(c echo.Context) error {
+	return c.JSON(http.StatusOK, map[string]string{
+		"status": "ok",
+	})
+}
