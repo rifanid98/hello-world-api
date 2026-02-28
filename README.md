@@ -132,8 +132,6 @@ curl http://localhost:8080/hello
 
 ### Overview
 
-Deployment dilakukan **otomatis** via GitHub Actions setiap kali ada push ke branch `main`.
-
 ```
 git push origin main
        ↓
