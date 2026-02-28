@@ -9,7 +9,7 @@ import (
 // HelloHandler handles GET /hello and returns hello world message.
 func HelloHandler(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]string{
-		"message": "hello world",
+		"message": "hello world!",
 	})
 }
 
