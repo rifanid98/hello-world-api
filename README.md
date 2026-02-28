@@ -171,7 +171,7 @@ Konfigurasi di: **Settings → Secrets and variables → Actions**
 
 ---
 
-## 🖥️ VPS Setup (Sekali Saja)
+## 🖥️ VPS Setup
 
 > Setup manual ini hanya dilakukan **satu kali** saat pertama kali deploy ke VPS baru.
 
